@@ -1,0 +1,32 @@
+{
+  "name": "biojs-rest-kegg",
+  "description": "Client library for REST-style KEGG API",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kozo2/biojs-rest-kegg",
+  "author": {
+    "name": "Kozo Nishida",
+    "email": "knishida@riken.jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kozo2/biojs-rest-kegg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kozo2/biojs-rest-kegg/issues"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2",
+      "url": "https://github.com/kozo2/biojs-rest-kegg/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/index.js",
+  "dependencies": {
+    "nets": "^1.0.0"
+  },
+  "devDependencies": {
+		"mkdirp": "^0.5.0",
+		"browserify": "6.x"
+  }, 
+  "keywords": ["kegg","rest","api","pathway","biojs"]
+}
