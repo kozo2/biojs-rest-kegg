@@ -21,11 +21,21 @@
     }
   ],
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "request": "^2.65.0"
   },
+  "scripts": {
+    "build": "babel src --out-dir lib --source-maps-inline",
+    "watch": "babel src --out-dir lib --watch --source-maps-inline",
+    "test": "npm run build && mocha test/*.js"
+  },
   "devDependencies": {
-    "babel": "*"
+    "babel": "^5.2.17",
+    "espower-babel": "^3.0.0",
+    "power-assert": "^0.11.0"
   }, 
   "keywords": ["kegg","rest","api","pathway","biojs"]
 }
