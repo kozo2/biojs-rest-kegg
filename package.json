@@ -25,12 +25,12 @@
     "lib"
   ],
   "dependencies": {
-    "request": "^2.65.0"
+    "nets": "^3.2.0"
   },
   "scripts": {
     "build": "babel src --out-dir lib --source-maps-inline",
     "watch": "babel src --out-dir lib --watch --source-maps-inline",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha"
   },
   "devDependencies": {
     "babel": "^5.8.34",
