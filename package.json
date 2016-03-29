@@ -28,8 +28,6 @@
     "nets": "^3.2.0"
   },
   "scripts": {
-    "build": "babel src --out-dir lib --source-maps-inline",
-    "watch": "babel src --out-dir lib --watch --source-maps-inline",
     "test": "mocha"
   },
   "devDependencies": {
